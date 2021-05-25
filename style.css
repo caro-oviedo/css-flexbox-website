@@ -1,0 +1,35 @@
+/* change dafault styles of the browser */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+/* Desktop */ 
+
+  .main-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-bar{
+    background-color: pink;
+    }
+  
+  main{
+    background-color: yellow;
+    display: block;
+  }
+  
+  .presentation-section{
+    flex: 30%;
+    background-color: beige;
+  }
+  
+  footer{
+    background-color: aquamarine;
+  }
+  
+  
